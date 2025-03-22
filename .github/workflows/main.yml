@@ -22,7 +22,7 @@ jobs:
       with:
         arch: arm64
         compiler: clang/11
-        defconfig: afaneh_r9q_defconfig
+        defconfig: r9q_usa_openw_defconfig
         image: Image.gz-dtb
 
     - name: Upload Kernel and Module
